@@ -1,0 +1,83 @@
+打印星形图
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:11 Accepted:5 
+
+Description 
+
+给出一个整数n（1<=n<=20），输出对应n 行的星形图
+
+Input 
+
+输入包含多组测试用例，每个测试用例包括一个整数n
+
+Output 
+
+对每个整数n输出其对应的图形，如输出样例所示，并输出一个空行
+
+Sample Input 
+
+
+1
+4
+5
+
+
+Sample Output 
+
+
+*
+
+  *
+* * *
+* * *
+  *
+
+    *
+  * * *
+* * * * *
+  * * *
+    *
+
+
+
+
+Source 
+#include<stdio.h>
+int main()
+{int i,j,n;
+while(scanf("%d",&n)+1)
+{for (i=1;i<=n/2;i++)
+{
+if (n%2==0)
+{for (j=1;j<=2*(n/2-i);j++)
+printf(" ");
+}	
+else
+{for (j=1;j<=2*(n/2+1-i);j++)
+printf(" ");
+}
+for (j=1;j<=2*i-1;j++)
+printf("* ");
+printf("\n");
+}
+
+for (i=n-i+1;i>=1;i--)
+{
+	if (n%2==0)
+{for (j=1;j<=2*(n/2-i);j++)
+printf(" ");
+}	
+else
+{for (j=1;j<=2*(n/2+1-i);j++)
+printf(" ");
+}
+for (j=1;j<=2*i-1;j++)
+printf("* ");
+printf("\n");
+}
+printf("\n");
+}
+
+return 0;
+}

@@ -1,0 +1,40 @@
+god is a girl
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:29 Accepted:7 
+
+Description 
+
+One day,when I was dreaming,god went into my dream,she was pretty cute,just like /^_^\... 
+I really wanted to talked to her,but my English was so poor and she was not a national god but a foreign one...After thirty minutes,she flew away...but story was not finished here,she had left a letter for me!!!What puzzled me so much is the letter was encoded.I had thought for many days,but still can't get it. Now I turn to you for help,with some limited prompts,can you help me to decode the whole letter? 
+
+Prompts: 
+GDJIJ,EL SSJT UT YWOSQNIVZMI. -> HELLO,MY NAME IS LINDAINVERS. 
+CN WLP JRVMFGQ BVR,IJCFI? -> DO YOU REQUIRE AID,HUMAN? 
+NMAB VYNNF, FI'E VC HP IXJ ZLQZI. -> ONCE AGAIN, IT'S UP TO THE ELVES. 
+
+
+Input 
+
+There is multy cases,please process to EOF. 
+Each case is one line of string with uppercase letters and white spaces and other symbols. 
+
+
+Output 
+
+One line of the decoded string.
+
+Sample Input 
+
+
+SGC CGGJX GC BMHVQ BGU BCIHNYNBX GNPLV!
+
+
+Sample Output 
+
+
+THE FLOWS OF MAGIC ARE WHIMSICAL TODAY!
+
+Source 
+
+xiaom

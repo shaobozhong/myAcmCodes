@@ -1,0 +1,93 @@
+Parliament
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:10 Accepted:6 
+
+Description 
+
+New convocation of The Fool Land's Parliament consists of N delegates. According to the present regulation delegates should be divided into disjoint groups of different sizes and every day each group has to send one delegate to the conciliatory committee. The composition of the conciliatory committee should be different each day. The Parliament works only while this can be accomplished. 
+You are to write a program that will determine how many delegates should contain each group in order for Parliament to work as long as possible.
+
+Input 
+
+The input file contains a single integer N (5<=N<=1000 ).
+
+Output 
+
+Write to the output file the sizes of groups that allow the Parliament to work for the maximal possible time. These sizes should be printed on a single line in ascending order and should be separated by spaces.
+
+Sample Input 
+
+
+7
+
+Sample Output 
+
+
+3 4
+
+Source 
+
+Northeastern Europe 1998
+
+
+最大的困难是读题,罗嗦了一大堆,其实就是一道找对于序列{ak},满足各元素互不相同,和为n,且该序列各项乘积最大.
+容易得出满足条件序列的几个性质:
+1.4>a1>1
+2.a[i+1]-a[i]<=2(假设该序列按升序排列)
+3.a[i+1]-a[2]=2的情况最多有1个
+具体证明略.
+由此可以轻松构造出该序列:
+1.从2开始累加,直到和m大于等于n
+2.j=m-n,把序列中的j划去(当j=1时,划去2并将最后一个元素加1)
+ 
+程序如下:
+#include <stdio.h>
+
+int main()
+
+{
+
+    int n,i=4,m=5,j;
+
+    scanf("%d",&n);
+
+    while (m<n)
+
+          m+=i++;
+
+    j=m-n;
+
+    m=2;
+
+    if (j==1)
+
+    {
+
+          m=3;
+
+          j=i-1;
+
+          i++;
+
+    }
+
+    while (m<i-1)
+
+    {
+
+          if (m!=j)
+
+                printf("%d ",m);
+
+          m++;
+
+    }
+
+    printf("%d\n",i-1);
+
+    return 0;
+
+}
+
+ 

@@ -1,0 +1,72 @@
+简单排序
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:20 Accepted:13 
+
+Description 
+
+给定n个整数(0<n<=100)，从小到大输出
+
+Input 
+
+输入的第一行是个正整数n，第二行有n个整数 
+
+
+Output 
+
+从小到大输出n个数 两个整数之间用空格隔开，注意最后一个数后面无空格
+
+Sample Input 
+
+
+5
+5 3 2 1 4
+
+Sample Output 
+
+
+1 2 3 4 5
+
+Source 
+
+hhtc 小C
+Source 
+
+#include<stdio.h>
+int a[101],n;
+
+void insertsort()
+{
+	int i,j;
+	for(i=1;i<=n;i++)
+	{
+		a[0]=a[i];
+		j=i-1;
+		while(a[0]<a[j])
+		{
+			a[j+1]=a[j];
+			j--;
+		}
+	a[j+1]=a[0];
+	}
+	
+}
+
+
+int main()
+{
+	int i;
+	scanf("%d",&n);
+	for (i=1;i<=n;i++)
+		scanf("%d",&a[i]);
+	
+	insertsort();
+	
+	for(i=1;i<=n-1;i++)
+	printf("%d ",a[i]);
+	
+	printf("%d",a[n]);
+	
+	return 0 ;
+}
+

@@ -1,0 +1,41 @@
+全排列问题
+
+Time Limit:2000MS  Memory Limit:65536K
+Total Submit:37 Accepted:12 
+
+Description 
+
+给出n(0<n<=8)个不同字符，请你按字典序输出他们所有的排列情况。
+
+Input 
+
+输入包含多个测试用例，每个测试用例占两行，第一行为字符的个数n,第二行为n个不同的字符 每两个字符间用空格隔开
+
+Output 
+
+对每个测试用例，分行输出其所有的排列总数，每行输出一种排列情况。每个测试用例间输出一个空行
+
+Sample Input 
+
+
+2
+B A
+3
+1 2 3
+
+Sample Output 
+
+
+AB
+BA
+
+123
+132
+213
+231
+312
+321
+
+Source 
+
+hhtc 小A

@@ -1,0 +1,47 @@
+A+B+C
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:54 Accepted:13 
+
+Description 
+
+For each pair of integers A B and C ( -2^31 <= A, B, C<= 2^31-1 ), Output the result of A+B+C on a single line. 
+
+
+Input 
+
+The input consists of multiple test cases,each test case include three integer A, B and C
+
+Output 
+
+For each test case you should output the sum of A, B, C in one line,and with one line of output for each line in input.
+
+Sample Input 
+
+
+1 2 3
+3 4 3
+
+Sample Output 
+
+
+6
+10
+
+Hint 
+
+请注意32位机上int的表示范围。注意读文件结束的方法。
+
+Source 
+
+hhtc 小A
+#include<stdio.h>
+int main()
+{
+	double a,b,c;
+	while(scanf("%lf%lf%lf",&a,&b,&c)+1)
+	{
+	printf("%.0f\n",a+b+c);
+	}
+return(0);
+}

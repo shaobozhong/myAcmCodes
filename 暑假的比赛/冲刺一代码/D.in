@@ -1,0 +1,19 @@
+ulm 48.700 10.500
+fre 47.700 9.500
+ph 39.883 -75.250
+san 37.366 -121.933
+nor 90 0
+sou -90 0
+#
+ulm ph
+ulm san
+fre ph
+fre san
+ulm fre
+san ph
+ulm ulm
+ulm nor
+ulm sou
+nor sou
+ulm l
+# #

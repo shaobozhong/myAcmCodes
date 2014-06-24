@@ -1,0 +1,50 @@
+最小公倍数
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:8 Accepted:7 
+
+Description 
+
+给定两个正整数，计算这两个数的最小公倍数。 
+
+
+Input 
+
+输入包含多组测试数据，每组只有一行，包括两个不大于1000的正整数.
+
+Output 
+
+对于每个测试用例，给出这两个数的最小公倍数，每个实例输出一行。
+
+Sample Input 
+
+
+14 10
+
+
+Sample Output 
+
+
+70
+
+
+Source 
+
+hhtc 小C
+#include<stdio.h>
+int main()
+{
+	int a1,b1,a,b,temp;
+	while(scanf("%d%d",&a,&b)+1)
+	{
+	a1=a;b1=b;
+	if (a<b) {temp=a;a=b;b=temp;}
+	while(a%b!=0)
+	{temp=b;
+	b=a%b;
+	a=temp;
+	}
+	printf("%d\n",a1*b1/b);
+	}
+	return(0);
+}

@@ -1,0 +1,30 @@
+相等尾巴数
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:19 Accepted:4 
+
+Description 
+
+给你一个自然数N(N>1)，如果存在自然数A,B(A>B)使得N^A和N^B都不小于1000，并且后三个数相等，就称A，B是关于N相等尾巴数。 
+编程找A+B最小的N相等尾巴数。
+
+Input 
+
+输入包括多个测试样例 
+每个样例包括一个数N。
+
+Output 
+
+每个测试样例占一行，输出A+B最小的N相等尾巴数。
+
+Sample Input 
+
+
+2
+
+Sample Output 
+
+
+120
+
+Source 

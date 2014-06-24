@@ -1,0 +1,149 @@
+
+Unexpected Signal : EXCEPTION_ACCESS_VIOLATION (0xc0000005) occurred at PC=0x80780CE
+Function=[Unknown.]
+Library=C:\Program Files\Java\j2re1.4.2_04\bin\client\jvm.dll
+
+NOTE: We are unable to locate the function name symbol for the error
+      just occurred. Please refer to release documentation for possible
+      reason and solutions.
+
+
+Current Java thread:
+	at sun.awt.windows.WToolkit.eventLoop(Native Method)
+	at sun.awt.windows.WToolkit.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dynamic libraries:
+0x00400000 - 0x00406000 	C:\Windows\system32\java.exe
+0x77930000 - 0x77A6C000 	C:\Windows\SYSTEM32\ntdll.dll
+0x777A0000 - 0x77874000 	C:\Windows\system32\kernel32.dll
+0x75D30000 - 0x75D7A000 	C:\Windows\system32\KERNELBASE.dll
+0x75D80000 - 0x75E20000 	C:\Windows\system32\ADVAPI32.dll
+0x77650000 - 0x776FC000 	C:\Windows\system32\msvcrt.dll
+0x77120000 - 0x77139000 	C:\Windows\SYSTEM32\sechost.dll
+0x77880000 - 0x77921000 	C:\Windows\system32\RPCRT4.dll
+0x08000000 - 0x08138000 	C:\Program Files\Java\j2re1.4.2_04\bin\client\jvm.dll
+0x75FF0000 - 0x760B9000 	C:\Windows\system32\USER32.dll
+0x75FA0000 - 0x75FEE000 	C:\Windows\system32\GDI32.dll
+0x77A70000 - 0x77A7A000 	C:\Windows\system32\LPK.dll
+0x77700000 - 0x7779D000 	C:\Windows\system32\USP10.dll
+0x73F70000 - 0x73FA2000 	C:\Windows\system32\WINMM.dll
+0x77140000 - 0x7715F000 	C:\Windows\system32\IMM32.DLL
+0x77360000 - 0x7742C000 	C:\Windows\system32\MSCTF.dll
+0x759B0000 - 0x759FB000 	C:\Windows\system32\apphelp.dll
+0x10000000 - 0x10007000 	C:\Program Files\Java\j2re1.4.2_04\bin\hpi.dll
+0x00260000 - 0x0026E000 	C:\Program Files\Java\j2re1.4.2_04\bin\verify.dll
+0x00270000 - 0x00289000 	C:\Program Files\Java\j2re1.4.2_04\bin\java.dll
+0x00290000 - 0x0029D000 	C:\Program Files\Java\j2re1.4.2_04\bin\zip.dll
+0x03B60000 - 0x03C6F000 	C:\Program Files\Java\j2re1.4.2_04\bin\awt.dll
+0x70C90000 - 0x70CE1000 	C:\Windows\system32\WINSPOOL.DRV
+0x760D0000 - 0x7622C000 	C:\Windows\system32\ole32.dll
+0x74850000 - 0x74890000 	C:\Windows\system32\uxtheme.dll
+0x03FC0000 - 0x04010000 	C:\Program Files\Java\j2re1.4.2_04\bin\fontmanager.dll
+0x6C5E0000 - 0x6C6C7000 	C:\Windows\system32\ddraw.dll
+0x71B00000 - 0x71B06000 	C:\Windows\system32\DCIMAN32.dll
+0x77430000 - 0x775CD000 	C:\Windows\system32\SETUPAPI.dll
+0x75D00000 - 0x75D27000 	C:\Windows\system32\CFGMGR32.dll
+0x77A90000 - 0x77B1F000 	C:\Windows\system32\OLEAUT32.dll
+0x75CE0000 - 0x75CF2000 	C:\Windows\system32\DEVOBJ.dll
+0x744B0000 - 0x744C3000 	C:\Windows\system32\dwmapi.dll
+0x61CB0000 - 0x62406000 	C:\Windows\system32\nvd3dum.dll
+0x74450000 - 0x74475000 	C:\Windows\system32\powrprof.dll
+0x6C010000 - 0x6C0DC000 	C:\Windows\system32\D3DIM700.DLL
+0x75A00000 - 0x75A0C000 	C:\Windows\system32\CRYPTBASE.dll
+0x03DA0000 - 0x03DAF000 	C:\Program Files\Java\j2re1.4.2_04\bin\net.dll
+0x77B20000 - 0x77B55000 	C:\Windows\system32\WS2_32.dll
+0x77A80000 - 0x77A86000 	C:\Windows\system32\NSI.dll
+0x73DC0000 - 0x73DD0000 	C:\Windows\system32\NLAapi.dll
+0x754F0000 - 0x7552C000 	C:\Windows\System32\mswsock.dll
+0x753B0000 - 0x753F4000 	C:\Windows\system32\DNSAPI.dll
+0x74340000 - 0x74348000 	C:\Windows\System32\winrnr.dll
+0x74300000 - 0x74310000 	C:\Windows\system32\napinsp.dll
+0x742E0000 - 0x742F2000 	C:\Windows\system32\pnrpnsp.dll
+0x726B0000 - 0x726CC000 	C:\Windows\system32\IPHLPAPI.DLL
+0x726A0000 - 0x726A7000 	C:\Windows\system32\WINNSI.DLL
+0x72580000 - 0x725B8000 	C:\Windows\System32\fwpuclnt.dll
+0x712B0000 - 0x712B6000 	C:\Windows\system32\rasadhlp.dll
+0x75010000 - 0x75015000 	C:\Windows\System32\wshtcpip.dll
+0x061F0000 - 0x061F5000 	C:\Program Files\Java\j2re1.4.2_04\bin\rmi.dll
+0x764D0000 - 0x77119000 	C:\Windows\system32\SHELL32.DLL
+0x75E70000 - 0x75EC7000 	C:\Windows\system32\SHLWAPI.dll
+0x775D0000 - 0x7764B000 	C:\Windows\system32\COMDLG32.DLL
+0x75C50000 - 0x75CD4000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16385_none_ebf82fc36c758ad5\COMCTL32.dll
+0x75F10000 - 0x75F93000 	C:\Windows\system32\CLBCatQ.DLL
+0x749E0000 - 0x74B7E000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_421189da2b7fabfc\comctl32.dll
+0x74890000 - 0x74985000 	C:\Windows\system32\propsys.dll
+0x73FB0000 - 0x73FD1000 	C:\Windows\system32\ntmarta.dll
+0x75E20000 - 0x75E65000 	C:\Windows\system32\WLDAP32.dll
+0x75A80000 - 0x75A8B000 	C:\Windows\system32\profapi.dll
+0x6FA40000 - 0x6FA98000 	C:\Program Files\Common Files\microsoft shared\ink\tiptsf.dll
+0x74350000 - 0x7444B000 	C:\Windows\system32\WindowsCodecs.dll
+0x6FE40000 - 0x6FE71000 	C:\Windows\system32\EhStorShell.dll
+0x6FDD0000 - 0x6FE3A000 	C:\Windows\System32\cscui.dll
+0x6FDC0000 - 0x6FDC9000 	C:\Windows\System32\CSCDLL.dll
+0x71CC0000 - 0x71CCB000 	C:\Windows\system32\CSCAPI.dll
+0x6FF00000 - 0x6FF6F000 	C:\Windows\system32\ntshrui.dll
+0x756D0000 - 0x756E9000 	C:\Windows\system32\srvcli.dll
+0x73C80000 - 0x73C8A000 	C:\Windows\system32\slc.dll
+0x75530000 - 0x75546000 	C:\Windows\system32\CRYPTSP.dll
+0x752D0000 - 0x7530B000 	C:\Windows\system32\rsaenh.dll
+0x75A70000 - 0x75A7E000 	C:\Windows\system32\RpcRtRemote.dll
+0x6C490000 - 0x6C4EC000 	C:\Windows\System32\StructuredQuery.dll
+0x75970000 - 0x75978000 	C:\Windows\System32\Secur32.dll
+0x75990000 - 0x759AA000 	C:\Windows\System32\SSPICLI.DLL
+0x6FEB0000 - 0x6FEFE000 	C:\Windows\system32\actxprxy.dll
+0x72730000 - 0x7275B000 	C:\Program Files\Internet Explorer\ieproxy.dll
+0x70100000 - 0x70116000 	C:\Windows\system32\thumbcache.dll
+0x760C0000 - 0x760C5000 	C:\Windows\system32\PSAPI.DLL
+0x6FF70000 - 0x6FF9E000 	C:\Windows\system32\SHDOCVW.dll
+0x6E4A0000 - 0x6EF1C000 	C:\Windows\system32\ieframe.DLL
+0x73540000 - 0x7357C000 	C:\Windows\system32\OLEACC.dll
+0x77160000 - 0x77359000 	C:\Windows\system32\iertutil.dll
+0x6C3C0000 - 0x6C45F000 	C:\Windows\system32\SearchFolder.dll
+0x741F0000 - 0x741FF000 	C:\Windows\system32\samcli.dll
+0x74990000 - 0x749A2000 	C:\Windows\system32\SAMLIB.dll
+0x74210000 - 0x74219000 	C:\Windows\system32\netutils.dll
+0x70DD0000 - 0x70DE2000 	C:\Windows\system32\MPR.dll
+0x71AB0000 - 0x71AB8000 	C:\Windows\System32\drprov.dll
+0x75170000 - 0x75199000 	C:\Windows\System32\WINSTA.dll
+0x71A90000 - 0x71AA4000 	C:\Windows\System32\ntlanman.dll
+0x60BA0000 - 0x60BB6000 	C:\Windows\System32\davclnt.dll
+0x62410000 - 0x62418000 	C:\Windows\System32\DAVHLPR.dll
+0x74200000 - 0x7420F000 	C:\Windows\system32\wkscli.dll
+0x5B4F0000 - 0x5B728000 	C:\Windows\system32\wpdshext.dll
+0x746C0000 - 0x74850000 	C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7600.16385_none_72fc7cbf861225ca\gdiplus.dll
+0x70EB0000 - 0x70F39000 	C:\Windows\system32\PortableDeviceApi.dll
+0x75C20000 - 0x75C4D000 	C:\Windows\system32\WINTRUST.dll
+0x75B00000 - 0x75C1C000 	C:\Windows\system32\CRYPT32.dll
+0x75AF0000 - 0x75AFC000 	C:\Windows\system32\MSASN1.dll
+0x73580000 - 0x735AB000 	C:\Windows\system32\PortableDeviceTypes.dll
+0x60690000 - 0x606CF000 	C:\Windows\system32\audiodev.dll
+0x5B060000 - 0x5B2C7000 	C:\Windows\system32\WMVCore.DLL
+0x6C5A0000 - 0x6C5DD000 	C:\Windows\system32\WMASF.DLL
+0x6FAA0000 - 0x6FAC2000 	C:\Windows\system32\EhStorAPI.dll
+0x6F5D0000 - 0x6F768000 	C:\Windows\system32\NetworkExplorer.dll
+0x70030000 - 0x70039000 	C:\Windows\system32\LINKINFO.dll
+0x75EE0000 - 0x75F0A000 	C:\Windows\system32\imagehlp.dll
+0x6C1B0000 - 0x6C29B000 	C:\Windows\system32\dbghelp.dll
+
+Heap at VM Abort:
+Heap
+ def new generation   total 576K, used 481K [0x10010000, 0x100b0000, 0x104f0000)
+  eden space 512K,  93% used [0x10010000, 0x100884a0, 0x10090000)
+  from space 64K,   0% used [0x100a0000, 0x100a0000, 0x100b0000)
+  to   space 64K,   0% used [0x10090000, 0x10090000, 0x100a0000)
+ tenured generation   total 3752K, used 2108K [0x104f0000, 0x1089a000, 0x14010000)
+   the space 3752K,  56% used [0x104f0000, 0x106ff360, 0x106ff400, 0x1089a000)
+ compacting perm gen  total 7936K, used 7814K [0x14010000, 0x147d0000, 0x18010000)
+   the space 7936K,  98% used [0x14010000, 0x147b1b00, 0x147b1c00, 0x147d0000)
+
+Local Time = Tue Oct 13 16:05:24 2009
+Elapsed Time = 11042
+#
+# HotSpot Virtual Machine Error : EXCEPTION_ACCESS_VIOLATION
+# Error ID : 4F530E43505002EF
+# Please report this error at
+# http://java.sun.com/cgi-bin/bugreport.cgi
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.2_04-b05 mixed mode)
+#

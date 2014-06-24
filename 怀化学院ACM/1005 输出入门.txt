@@ -1,0 +1,53 @@
+输出入门
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:18 Accepted:6 
+
+Description 
+
+计算A+B 
+
+
+
+Input 
+
+输入数据有多组。 
+每组一行，为两个整数A, B, 其中–9223372036854775808 <=A,B,A+B<= 9223372036854775807）。 
+输入以0 0结束。
+
+Output 
+
+输出A+B的值，每组数据之间保留一个空行,但最后一个不要空行。
+
+Sample Input 
+
+
+1 2
+3 4
+0 0
+
+Sample Output 
+
+
+3
+
+7
+
+Source 
+
+xiaom
+ #include<stdio.h>
+int main()
+{
+__int64 A,B; int t=0;
+	while (scanf("%I64d%I64d",&A,&B),A!=0||B!=0)
+{if (t==1) printf("\n");
+	t=1;
+   printf("%I64d\n",A+B);
+	
+}
+return 0;
+
+}
+
+

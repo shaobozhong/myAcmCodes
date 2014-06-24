@@ -1,0 +1,44 @@
+N£¡
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:104 Accepted:29 
+
+Description 
+
+Given an integer N(0 ¡Ü N ¡Ü 10000), your task is to calculate N! 
+We just need last three digit. 
+
+
+Input 
+
+One N in one line, process to the end of file. 
+
+
+Output 
+
+For each N, output last three digit of N! in one line.Ignore the precursor 0. 
+
+
+Sample Input 
+
+
+1
+2
+7
+
+
+Sample Output 
+
+
+1
+2
+40
+
+
+Hint 
+
+7! = 5040 the first 0 has been ignored
+
+Source 
+
+HHTC Ð¡C

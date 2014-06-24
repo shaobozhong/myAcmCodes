@@ -1,0 +1,40 @@
+最大 次大 第三大..
+
+Time Limit:2000MS  Memory Limit:65535K
+Total Submit:68 Accepted:16 
+
+Description 
+
+给你一系列的数 让你看一眼数据 你能迅速地找出最大值、次大值和第三大的值么
+
+Input 
+
+输入包括多个测试用例，每个测试用例的第一行是个正整数n(3<=n<=900000) 
+然后包括n个非负整数
+
+Output 
+
+对每一组测试用例输出最大 次大 第三大的数 
+两个数之间空格隔开
+
+Sample Input 
+
+
+6
+5 4 1 2 3 8
+3
+1 2 3
+
+Sample Output 
+
+
+8 5 4
+3 2 1
+
+Hint 
+
+巨大的输入 推荐scanf
+
+Source 
+
+hhtc 小C

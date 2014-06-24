@@ -1,0 +1,76 @@
+有重复元素的排列问题
+Description 
+?设R={ r , r , , rn 1 2   可能相同。试设计?}是要进行排列的n个元素。其中元素n r , r , , r 1 2  
+一个算法，列出R的所有不同排列。 
+
+编程任务： 
+给定n 以及待排列的n 个元素。计算出这n 个元素的所有不同排列。
+Input 
+输入数据的第1 行是元素个数n，1￡n￡500。接下来的1 行是待排列的n个元素。
+Output 
+程序运行结束时，将计算出的n 个元素的所有不同排列输出，最后1 行中的数是排列总数。
+Sample Input 
+4
+aacc
+Sample Output 
+aacc
+acac
+acca
+caac
+caca
+ccaa
+6
+#include<iostream.h>
+int ans=0;
+void swap(char &a,char &b)
+{
+	char s;
+	s=a;
+	a=b;
+	b=s;
+}
+
+bool f(char list[],int k,int i)
+{
+	if(i>=k)
+	{
+		for(int t=k;t<i;t++)
+			if(list[t]==list[i])
+				return false;
+			return true;
+	}
+}	
+void perm(char list[],int k,int m)
+{
+	
+	if(k==m)
+	{
+		 ans++;
+		for(int i=0;i<=m;i++)
+			cout<<list[i];
+		cout<<endl;
+	}
+	else
+	{
+		for(int i=k;i<=m;i++)
+			if(f(list,k,i))
+			{
+				swap(list[k],list[i]);
+				perm(list,k+1,m);
+				swap(list[k],list[i]);
+			}
+	}
+}
+
+int main()
+{
+	int n;
+	cin>>n;
+	char *a=new char [n+1];
+	for(int i=0;i<n;i++)
+		cin>>a[i];
+    perm(a,0,n-1);
+	cout<<ans<<endl;
+	delete []a;
+	return 0;
+}

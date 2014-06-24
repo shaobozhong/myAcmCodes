@@ -1,0 +1,59 @@
+素数的检测
+
+Time Limit:1000MS  Memory Limit:65536K
+Total Submit:39 Accepted:10 
+
+Description 
+
+素数的检测在数学和信息学中是个很重要的内容 
+现在给你一个非负整数n(小于2^32) 
+请你判断n是否为素数
+
+Input 
+
+输入有多个测试用例 
+每个测试用例包括一个非负整数n
+
+Output 
+
+判断n是否为素数 如果是输出YES 否则输出NO
+
+Sample Input 
+
+
+2
+3
+5
+6
+
+
+Sample Output 
+
+
+YES
+YES
+YES
+NO
+
+
+Source 
+
+hhtc 小C
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int n,i;
+	while(scanf("%d",&n)+1)
+	{if (n>1) {
+		for(i=2;i<=sqrt(n);i++)
+		if (n%i==0) break;
+		
+		if (i>sqrt(n)) printf("YES\n");
+		else printf("NO\n");
+	}
+	else printf("NO\n");
+	}
+return 0;
+}
+
